@@ -1,0 +1,31 @@
+###
+GET http://127.0.0.1:3015/api/estudibd
+
+###
+POST http://localhost:3015/api/estudibd/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"castro",
+    "apellido":"cedeño",
+    "materia":"fisica"
+}
+
+###
+PUT http://localhost:3015/api/estudibd/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":"638bb5df63b13621f4d48262",
+    "nombre":"antonioP",
+    "apellido":"cedeño",
+    "materia":"fisica"
+}
+
+###
+DELETE http://localhost:3015/api/estudibd/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":"638bb5d863b13621f4d48260"
+}
